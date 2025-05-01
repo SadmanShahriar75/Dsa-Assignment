@@ -38,15 +38,15 @@ int main() {
         cin >> tree[i].val >> tree[i].left >> tree[i].right;
     }
 
-    // In-order
+
     inOrder(0);
     cout << "\n";
 
-    // Pre-order
+ 
     preOrder(0);
     cout << "\n";
 
-    // Post-order
+
     postOrder(0);
     cout << "\n";
 

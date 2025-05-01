@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    dfs(root, 1);  // Height = nodes count → তাই root থেকে 1 দিয়ে শুরু
+    dfs(root, 1);  
     cout << maxHeight << endl;
 
     return 0;
